@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackground"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.example.android.scorekeeper.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:onClick="changeName1"
+            android:id="@+id/P1_name_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName1"
+            android:id="@+id/P1_name_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName1"
+            android:id="@+id/P1_name_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName1"
+            android:id="@+id/P1_name_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName1"
+            android:id="@+id/P1_name_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName1"
+            android:id="@+id/P1_name_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName1"
+            android:id="@+id/P1_name_7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blackground" />
+
+        <ImageView
+            android:id="@+id/P1_set1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:id="@+id/P1_set2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:id="@+id/P1_set3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:id="@+id/P1_advantage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+
+        <ImageView
+            android:id="@+id/P1_points_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:id="@+id/P1_points_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:src="@drawable/blackground" />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:scaleType="fitXY"
+            android:src="@drawable/sets" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:onClick="changeName2"
+            android:id="@+id/P2_name_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName2"
+            android:id="@+id/P2_name_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName2"
+            android:id="@+id/P2_name_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName2"
+            android:id="@+id/P2_name_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName2"
+            android:id="@+id/P2_name_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName2"
+            android:id="@+id/P2_name_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:onClick="changeName2"
+            android:id="@+id/P2_name_7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blackground" />
+
+        <ImageView
+            android:id="@+id/P2_set1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:id="@+id/P2_set2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:id="@+id/P2_set3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:id="@+id/P2_advantage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+
+        <ImageView
+            android:id="@+id/P2_points_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <ImageView
+            android:id="@+id/P2_points_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:background="@drawable/court"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tball_texture"
+            android:layout_alignStart="@+id/score_player1"
+            android:layout_alignEnd="@+id/score_player1"
+            android:layout_alignTop="@+id/score_player1"
+            android:layout_alignBottom="@+id/score_player1"
+            android:scaleType="fitXY"/>
+        <Button
+            android:id="@+id/score_player1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="P1Scored"
+            android:text="@string/btn_score_player_1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tball_texture"
+            android:layout_alignStart="@+id/score_player2"
+            android:layout_alignEnd="@+id/score_player2"
+            android:layout_alignTop="@+id/score_player2"
+            android:layout_alignBottom="@+id/score_player2"
+            android:scaleType="fitXY"/>
+        <Button
+            android:id="@+id/score_player2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:onClick="P2Scored"
+            android:text="@string/btn_score_player_2" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tball_texture"
+            android:layout_alignStart="@+id/undo"
+            android:layout_alignEnd="@+id/undo"
+            android:layout_alignTop="@+id/undo"
+            android:layout_alignBottom="@+id/undo"
+            android:scaleType="fitXY"/>
+        <Button
+            android:id="@+id/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/reset"
+            android:layout_marginTop="24dp"
+            android:onClick="undo"
+            android:text="@string/btn_undo" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tball_texture"
+            android:layout_alignStart="@+id/reset"
+            android:layout_alignEnd="@+id/reset"
+            android:layout_alignTop="@+id/reset"
+            android:layout_alignBottom="@+id/reset"
+            android:scaleType="fitXY"/>
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:onClick="reset"
+            android:text="@string/btn_reset" />
+    </RelativeLayout>
+</LinearLayout>

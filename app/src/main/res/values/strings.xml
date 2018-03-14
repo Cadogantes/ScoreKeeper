@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ScoreKeeper</string>
+    <string name="btn_score_player_1">Point for P1</string>
+    <string name="btn_score_player_2">Point for P2</string>
+    <string name="btn_undo">Undo</string>
+    <string name="btn_reset">Reset</string>
+    <string name="game">has won the game</string>
+    <string name="set">has won the set</string>
+    <string name="match">has won the match</string>
+    <string name="gameOver">Game over</string>
+</resources>
