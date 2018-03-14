@@ -8,4 +8,7 @@
     <string name="set">has won the set</string>
     <string name="match">has won the match</string>
     <string name="gameOver">Game over</string>
+    <string name="playerName">Player name:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 </resources>

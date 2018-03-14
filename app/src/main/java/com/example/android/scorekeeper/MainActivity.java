@@ -403,21 +403,21 @@ public class MainActivity extends AppCompatActivity {
 
     void changeName1(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Player name:");
+        builder.setTitle(getString(R.string.playerName));
 
 // Set up the input
         final EditText input = new EditText(this);
         builder.setView(input);
 
 // Set up the buttons
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton(getString(R.string.ok), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 P1 = input.getText().toString();
                 displayNames(P1, P2);
             }
         });
-        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton(getString(R.string.cancel), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
@@ -428,21 +428,21 @@ public class MainActivity extends AppCompatActivity {
 
     void changeName2(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Player name:");
+        builder.setTitle(getString(R.string.playerName));
 
 // Set up the input
         final EditText input = new EditText(this);
         builder.setView(input);
 
 // Set up the buttons
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton(getString(R.string.ok), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 P2 = input.getText().toString();
                 displayNames(P1, P2);
             }
         });
-        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton(getString(R.string.cancel), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
@@ -453,10 +453,9 @@ public class MainActivity extends AppCompatActivity {
 
     void showToast(String content) {
         Context context = this;
-        CharSequence text = content;
         int duration = Toast.LENGTH_SHORT;
 
-        Toast toast = Toast.makeText(context, text, duration);
+        Toast toast = Toast.makeText(context, content, duration);
         toast.show();
     }
 }
